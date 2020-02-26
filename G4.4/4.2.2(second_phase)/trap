@@ -1,0 +1,11 @@
+#SIMBA
+STORE $c 0
+PRINT "GOING TO SLEEP"
+SLEEP $argv[1]
+STORE $b[$c] 8
+LOAD $c $b[$c]
+UP $b
+PRINT "DONE"
+ADD $n3 $argv[1] $c
+PRINT "Hey" $c $n3 $argv[1]
+RETURN

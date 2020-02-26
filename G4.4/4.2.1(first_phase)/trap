@@ -1,0 +1,7 @@
+#SIMBA
+SET $n1 4
+SET $n2 $argv[2]
+STORE $n4 $argv[1]
+ADD $n3 $argv[2] $n1
+PRINT "Hey" $n1 $argv[2] $argv[1]
+RETURN

@@ -1,0 +1,9 @@
+#SIMBA
+STORE $b 0
+SET $a 1
+SLEEP $argv[1]
+STORE $b[$a] 4
+LOAD $c $b[$a]
+DOWN $b
+PRINT "hey"
+RETURN

@@ -1,0 +1,2 @@
+gcc -lpthread mybsem.c test2.c -o test2
+gcc -lpthread mybsem.c test3.c -o test3
